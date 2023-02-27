@@ -5,7 +5,7 @@ const context = canvas.getContext("2d");
 
 const frameCount = 200;
 const currentFrame = index => (
-  `/frames_anim/${index.toString().padStart(4, '0')}.jpg`
+  `frames_anim/${index.toString().padStart(4, '0')}.jpg`
 )
 
 const preloadImages = () => {
